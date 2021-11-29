@@ -1,0 +1,29 @@
+body{
+    background-color: grey;
+    text-align: center
+}
+main {
+    background-color: white;
+    min-width: 100vw;
+    min-height: 100vw;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 50%;
+    height: 20%;
+}
+p{
+    background-color: aqua;
+}

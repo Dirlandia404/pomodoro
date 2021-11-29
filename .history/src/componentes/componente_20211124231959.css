@@ -1,0 +1,26 @@
+body{
+    background-color: grey;
+    text-align: center
+}
+main {
+    background-color: white;
+    min-width: 320px;
+    min-height: 48vw;
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+}
+img{
+    width: 50%;
+    height: 20%;
+}
+p{
+    background-color: aqua;
+}

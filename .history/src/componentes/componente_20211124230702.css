@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+    align-items: center;
+}
+
+form{
+    background-color: white;
+    display: inline-block;
+}
+p{
+    background-color: aqua;
+}

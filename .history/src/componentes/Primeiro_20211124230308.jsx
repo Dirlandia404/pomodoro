@@ -1,0 +1,30 @@
+import { useEffect, useState } from "react";
+import "./componente.css";
+
+function Clock(props){
+  const [time, setTime] = useState(25);
+
+    const tick = () =>{
+        if(time === 0){
+            reset();
+        }else{
+            setTime([time -1]);
+        }
+    }
+    const reset = () => setTime(parseInt(time));
+
+    useEffect(() =>{
+        const timerId = setInterval(() => tick, 60);
+        return () => clearInterval(timerId)
+    })
+    return (
+        <main>
+            <form action="">
+            </form>
+                <img src="./images/tomato.svg" alt="Tomate" />
+           <p>Dirlandia</p>
+        </main>
+    );
+}
+
+export default Clock

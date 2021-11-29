@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+    min-width: 100vw;
+    min-height: 100vw;
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    background-color: white;
+    min-width: 320px;
+    min-height: 40vw;
+
+    justify-content: center;
+
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+p.time {
+    background-color: aqua;
+    padding: 10%;
+    font-size: 62px;
+}

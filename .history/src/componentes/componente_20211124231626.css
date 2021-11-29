@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+    text-align: center
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 50%;
+    height: 20%;
+}
+p{
+    background-color: aqua;
+}

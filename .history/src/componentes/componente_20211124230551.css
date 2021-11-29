@@ -1,0 +1,13 @@
+body{
+    background-color: grey;
+    align-items: center;
+}
+
+form{
+    background-color: white;
+    align-items: center;
+    width: 80%;
+}
+p{
+    background-color: aqua;
+}
