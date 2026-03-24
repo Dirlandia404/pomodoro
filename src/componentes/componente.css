@@ -1,62 +1,72 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: rgba(233, 93, 93, 0.192);
-    
-    display: flex;
-    
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+
+body {
+  background-color: rgba(233, 93, 93, 0.192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
+
 main {
-    background-color: white;
-    min-width: 375px;
-    max-width: 50%;
-
-    margin-left: 25vw;
-    margin-right: 25vw;
-
-    justify-content: center;
-
-    padding: 2rem;
-    border-radius: 10px;
-    
-    margin-top: 1%;
-    margin-bottom: 1%;
-    
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-div.caixa{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  
+div.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-img{
-    width: 80%;
-    margin-left: 10%;
+img {
+  width: 100%;
 }
+
+button img {
+  width: 100%;
+  max-width: 120px;
+}
+
 p.time {
-   
-    margin-top: -40%;
-    padding: 10%;
-    font-size: 62px;
-    line-height: 70px;
-    font-family:  'Lato', sans-serif;
-    color: rgb(116, 18, 18);
+  font-size: 72px;
+  line-height: 80px;
+  color: #e74c3c;
+  font-weight: bold;
 }
-div.butoes{
-    align-items: center;
+
+div.butoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%; /* Garantir que os botões ocupem 100% da largura */
 }
-button{
-    background: none;
-    margin-top: 50px;
-    padding: 5%;
-    width: 20%;
+
+button {
+  background: none;
+  padding: 2px;
+  width: 40%;
+  border: 0;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
