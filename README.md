@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Pomodoro Timer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+Este projeto é uma implementação de um **Timer Pomodoro**, baseado na técnica de produtividade Pomodoro. O timer conta 25 minutos de foco e 5 minutos de descanso, com botões de controle de **Play**, **Pause** e **Reset**.
 
-In the project directory, you can run:
+O aplicativo possui uma interface simples e elegante, ideal para quem quer melhorar sua produtividade.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Funcionalidades
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Timer Pomodoro**: Um contador que alterna entre 25 minutos de foco e 5 minutos de descanso.
+- **Notificação**: Quando o timer atinge 0, um som de notificação é tocado.
+- **Controle de tempo**: Os botões de Play, Pause e Reset permitem controlar o fluxo do timer.
+- **Design responsivo**: A interface se adapta tanto para dispositivos móveis quanto para desktop.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Rodar o Projeto Localmente
 
-### `npm run build`
+### Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para rodar o projeto, você precisa ter o **Node.js** e o **npm** instalados na sua máquina.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Instale o Node.js**: [Baixe aqui](https://nodejs.org/)
+2. **Verifique a instalação**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   node -v
+   npm -v
+   ```
 
-### `npm run eject`
+### Passos para Rodar
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Clone o repositório:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/Dirlandia404/pomodoro.git
+   cd pomodoro
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Instale as dependências do projeto:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Inicie o servidor de desenvolvimento:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Abra o navegador e acesse `http://localhost:3000` para ver o aplicativo em funcionamento.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Estrutura do Projeto
 
-### Analyzing the Bundle Size
+- **src**: Contém os arquivos de código-fonte React.
+  - **App.js**: Componente principal do aplicativo, onde a lógica do Pomodoro e os botões de controle são implementados.
+  - **Clock.js**: Componente que exibe o timer e a interação com os botões de controle.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **public**: Contém o arquivo `index.html` e ícones usados no projeto.
+- **package.json**: Contém as dependências do projeto e scripts de execução.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tecnologias Usadas
 
-### Advanced Configuration
+- **React**: Biblioteca JavaScript para construir interfaces de usuário.
+- **Node.js**: Ambiente de execução para JavaScript no backend.
+- **CSS**: Estilização do layout do aplicativo.
+- **Vercel** (opcional): Plataforma de deploy para hosting do projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Contribuindo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Faça um fork deste repositório.
+2. Crie uma branch para a sua feature (`git checkout -b feature/feature-name`).
+3. Faça commit das suas alterações (`git commit -am 'Adicionando nova feature'`).
+4. Faça push para a branch (`git push origin feature/feature-name`).
+5. Abra um pull request.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licença
+
+Distribuído sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## Demonstração
+
+Aqui está uma captura de tela do projeto:
+
+![Pomodoro Timer](./public/tela.png)
